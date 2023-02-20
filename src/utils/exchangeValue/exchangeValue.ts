@@ -1,6 +1,6 @@
-import {IDataItem} from "../interfaces";
+import {IDataItem} from "../../interfaces";
 
-interface IExchangeValue {
+export interface IExchangeValue {
     changeType: string
     getType: string
     changeValue: string
